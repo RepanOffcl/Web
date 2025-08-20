@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Ptero Mini Panel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Ptero Mini Panel 🚀</h1>
+
+  <!-- Upload -->
+  <form id="uploadForm">
+    <input type="file" name="file" />
+    <button type="submit">Upload ZIP</button>
+  </form>
+
+  <!-- Controls -->
+  <div class="controls">
+    <button onclick="sendCommand('start')">Start</button>
+    <button onclick="sendCommand('stop')">Stop</button>
+    <button onclick="sendCommand('restart')">Restart</button>
+  </div>
+
+  <!-- Log output -->
+  <pre id="logs"></pre>
+
+  <script src="script.js"></script>
+</body>
+      </html>
