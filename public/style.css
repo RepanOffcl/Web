@@ -1,0 +1,24 @@
+body {
+  background: #111;
+  color: #0f0;
+  font-family: monospace;
+  padding: 20px;
+}
+h1 {
+  color: #0ff;
+}
+button {
+  margin: 5px;
+  padding: 10px;
+  background: #222;
+  color: #0f0;
+  border: 1px solid #0f0;
+  cursor: pointer;
+}
+pre {
+  background: black;
+  padding: 15px;
+  height: 300px;
+  overflow-y: auto;
+  border: 1px solid #0f0;
+}
